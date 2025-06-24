@@ -73,7 +73,8 @@ const Landing = () => {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-emerald-800/90 via-green-700/80 to-emerald-800/90"></div>
           <img
-            src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            // src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+            src="https://media.istockphoto.com/id/1349381997/photo/female-hands-with-bowl-of-pumpkin-soup.jpg?s=612x612&w=0&k=20&c=bX5Xq1LmySatCItpQEG_ntpl_VqH0R_F9HEKGjRyBnE="
             alt="Herbal ingredients"
             className="w-full h-full object-cover"
           />
@@ -101,7 +102,7 @@ const Landing = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <div className="mb-6">
+          <div className="mb-4 mt-4">
             <span className="inline-block bg-emerald-500/20 backdrop-blur-sm text-emerald-100 px-4 py-2 rounded-full text-sm font-medium border border-emerald-400/30 animate-pulse">
               {heroContent[currentSlide].highlight}
             </span>
@@ -204,7 +205,7 @@ const Landing = () => {
               className="flex items-center space-x-3 bg-white/20 backdrop-blur-sm text-white px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300 transform hover:scale-105"
             >
               <Instagram className="h-5 w-5" />
-              <span className="font-medium">@lakshmiherbal</span>
+              <span className="font-medium">@lakshmi_herbal_food_products</span>
             </a>
           </div>
         </div>
