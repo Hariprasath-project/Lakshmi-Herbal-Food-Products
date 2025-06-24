@@ -83,14 +83,24 @@ const Navbar = () => {
           {/* Contact Info - Desktop */}
           <div className="hidden lg:flex items-center space-x-4">
             <div className="flex items-center space-x-2 text-emerald-100">
-              <Phone className="h-4 w-4" />
-              <span className="text-sm font-medium">+91 8667816842</span>
+              <a
+                href="tel:+91 8667816842"
+                className="flex items-center space-x-1"
+              >
+                <Phone className="h-4 w-4" />
+                <span className="text-sm font-medium">+91 8667816842</span>
+              </a>
             </div>
             <div className="flex items-center space-x-2 text-emerald-100">
-              <Mail className="h-4 w-4" />
-              <span className="text-sm font-medium">
-                harisivaguru28102002@gmail.com
-              </span>
+              <a
+                href="mailto:harisivaguru28102002@gmail.com"
+                className="flex items-center space-x-1"
+              >
+                <Mail className="h-4 w-4" />
+                <span className="text-sm font-medium">
+                  harisivaguru28102002@gmail.com
+                </span>
+              </a>
             </div>
           </div>
 
@@ -173,12 +183,24 @@ const Navbar = () => {
             {/* Mobile Contact Info */}
             <div className="pt-4 border-t border-emerald-600/50 space-y-2">
               <div className="flex items-center space-x-2 text-emerald-100">
-                <Phone className="h-4 w-4" />
-                <span className="text-sm">+91 8667816842</span>
+                <a
+                  href="tel:+91 8667816842"
+                  className="flex items-center space-x-3"
+                >
+                  <Phone className="h-4 w-4" />
+                  <span className="text-sm">+91 8667816842</span>
+                </a>
               </div>
               <div className="flex items-center space-x-2 text-emerald-100">
-                <Mail className="h-4 w-4" />
-                <span className="text-sm">harisivaguru28102002@gmail.com</span>
+                <a
+                  href="mailto:harisivaguru28102002@gmail.com"
+                  className="flex items-center space-x-3"
+                >
+                  <Mail className="h-4 w-4" />
+                  <span className="text-sm">
+                    harisivaguru28102002@gmail.com
+                  </span>
+                </a>
               </div>
             </div>
           </div>

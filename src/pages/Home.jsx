@@ -129,7 +129,10 @@ const Landing = () => {
               <span>Explore Products</span>
               <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
             </button>
-            <button className="border-2 border-white text-white hover:bg-white hover:text-emerald-800 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105">
+            <button
+              className="border-2 border-white text-white hover:bg-white hover:text-emerald-800 px-8 py-4 rounded-full font-semibold text-lg transition-all duration-300 transform hover:scale-105"
+              onClick={() => (window.location.href = "#contact")}
+            >
               Contact Us
             </button>
           </div>
@@ -173,7 +176,10 @@ const Landing = () => {
       />
 
       {/* Contact CTA Section */}
-      <section className="bg-gradient-to-r from-emerald-600 to-green-600 py-16 px-4 sm:px-6 lg:px-8">
+      <section
+        className="bg-gradient-to-r from-emerald-600 to-green-600 py-16 px-4 sm:px-6 lg:px-8"
+        id="contact"
+      >
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
             Ready to Start Your Wellness Journey?
@@ -185,14 +191,14 @@ const Landing = () => {
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <a
-              href="tel:+919876543210"
+              href="tel:+91 8667816842"
               className="flex items-center space-x-3 bg-white/20 backdrop-blur-sm text-white px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300 transform hover:scale-105"
             >
               <Phone className="h-5 w-5" />
               <span className="font-medium">+91 8667816842</span>
             </a>
             <a
-              href="mailto:info@lakshmiherbal.com"
+              href="mailto:harisivaguru28102002@gmail.com"
               className="flex items-center space-x-3 bg-white/20 backdrop-blur-sm text-white px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300 transform hover:scale-105"
             >
               <Mail className="h-5 w-5" />
@@ -201,7 +207,7 @@ const Landing = () => {
               </span>
             </a>
             <a
-              href="https://instagram.com/lakshmiherbal"
+              href="https://instagram.com/lakshmi_herbal_food_products"
               className="flex items-center space-x-3 bg-white/20 backdrop-blur-sm text-white px-6 py-3 rounded-full hover:bg-white/30 transition-all duration-300 transform hover:scale-105"
             >
               <Instagram className="h-5 w-5" />
